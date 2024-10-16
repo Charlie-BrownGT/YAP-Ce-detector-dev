@@ -36,10 +36,6 @@ class PrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction
     void GeneratePrimaries(G4Event*) override;
 
   private:
-    DetectorConstruction*      fDetector;
-    G4double                   fRndmBeam = 0.;
-
     G4GeneralParticleSource* particleGun;
-
 };
 #endif

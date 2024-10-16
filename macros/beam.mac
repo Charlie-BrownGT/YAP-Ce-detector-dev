@@ -1,9 +1,9 @@
 #set particle type, origin position and direction
 /gps/particle ion
 /gps/energy 100 GeV
-/gps/ion 2 5 2 0
+/gps/ion 11 21 11 0
 /gps/pos/centre 0 0 0 
-/gps/direction 1 0 0
+/gps/direction 0 0 1
 
 #set beam qualities, option left in for a circuar beam origin type
 /gps/ang/type planar
