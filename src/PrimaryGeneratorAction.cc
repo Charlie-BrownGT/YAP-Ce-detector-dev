@@ -21,9 +21,9 @@ PrimaryGeneratorAction::PrimaryGeneratorAction( DetectorConstruction* det)
 {  
   fParticleGun  = new G4ParticleGun(1);
 
-  G4ParticleDefinition* ion = G4IonTable::GetIonTable()->GetIon(2, 4, 0.);
+  G4ParticleDefinition* particle = G4IonTable::GetIonTable()->GetIon(2, 4, 0.);
 
-  fParticleGun->SetParticleDefinition(ion);
+  fParticleGun->SetParticleDefinition(particle);
   fParticleGun->SetParticleCharge(2.0);
   fParticleGun->SetParticleMomentumDirection(G4ThreeVector(1.,0.,0.));
   fParticleGun->SetParticleEnergy(100.*GeV);

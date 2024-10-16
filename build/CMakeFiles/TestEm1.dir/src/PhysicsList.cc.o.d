@@ -556,10 +556,6 @@ CMakeFiles/TestEm1.dir/src/PhysicsList.cc.o: \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4ProcessVector.hh \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4ProcessVector.icc \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4ProcessManager.icc \
- /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/include/StepMax.hh \
- /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4VDiscreteProcess.hh \
- /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4ParticleDefinition.hh \
- /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4Step.hh \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4Material.hh \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4Gamma.hh \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4Electron.hh \

@@ -14,8 +14,7 @@ class PrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction
     PrimaryGeneratorAction(DetectorConstruction*);    
    ~PrimaryGeneratorAction() override;
 
-  public:
-    void SetRndmBeam(G4double val)  {fRndmBeam = val;}   
+  public:  
     void GeneratePrimaries(G4Event*) override;
     
     G4ParticleGun* GetParticleGun() {return fParticleGun;}

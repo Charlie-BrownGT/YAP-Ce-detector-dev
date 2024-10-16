@@ -246,54 +246,6 @@ src/DetectorConstruction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.s
 .PHONY : src/DetectorConstruction.cc.s
 
-src/EventAction.o: src/EventAction.cc.o
-.PHONY : src/EventAction.o
-
-# target to build an object file
-src/EventAction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/EventAction.cc.o
-.PHONY : src/EventAction.cc.o
-
-src/EventAction.i: src/EventAction.cc.i
-.PHONY : src/EventAction.i
-
-# target to preprocess a source file
-src/EventAction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/EventAction.cc.i
-.PHONY : src/EventAction.cc.i
-
-src/EventAction.s: src/EventAction.cc.s
-.PHONY : src/EventAction.s
-
-# target to generate assembly for a file
-src/EventAction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/EventAction.cc.s
-.PHONY : src/EventAction.cc.s
-
-src/HistoManager.o: src/HistoManager.cc.o
-.PHONY : src/HistoManager.o
-
-# target to build an object file
-src/HistoManager.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/HistoManager.cc.o
-.PHONY : src/HistoManager.cc.o
-
-src/HistoManager.i: src/HistoManager.cc.i
-.PHONY : src/HistoManager.i
-
-# target to preprocess a source file
-src/HistoManager.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/HistoManager.cc.i
-.PHONY : src/HistoManager.cc.i
-
-src/HistoManager.s: src/HistoManager.cc.s
-.PHONY : src/HistoManager.s
-
-# target to generate assembly for a file
-src/HistoManager.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/HistoManager.cc.s
-.PHONY : src/HistoManager.cc.s
-
 src/PhysListEmStandard.o: src/PhysListEmStandard.cc.o
 .PHONY : src/PhysListEmStandard.o
 
@@ -366,150 +318,6 @@ src/PrimaryGeneratorAction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.s
 .PHONY : src/PrimaryGeneratorAction.cc.s
 
-src/Run.o: src/Run.cc.o
-.PHONY : src/Run.o
-
-# target to build an object file
-src/Run.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/Run.cc.o
-.PHONY : src/Run.cc.o
-
-src/Run.i: src/Run.cc.i
-.PHONY : src/Run.i
-
-# target to preprocess a source file
-src/Run.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/Run.cc.i
-.PHONY : src/Run.cc.i
-
-src/Run.s: src/Run.cc.s
-.PHONY : src/Run.s
-
-# target to generate assembly for a file
-src/Run.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/Run.cc.s
-.PHONY : src/Run.cc.s
-
-src/RunAction.o: src/RunAction.cc.o
-.PHONY : src/RunAction.o
-
-# target to build an object file
-src/RunAction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/RunAction.cc.o
-.PHONY : src/RunAction.cc.o
-
-src/RunAction.i: src/RunAction.cc.i
-.PHONY : src/RunAction.i
-
-# target to preprocess a source file
-src/RunAction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/RunAction.cc.i
-.PHONY : src/RunAction.cc.i
-
-src/RunAction.s: src/RunAction.cc.s
-.PHONY : src/RunAction.s
-
-# target to generate assembly for a file
-src/RunAction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/RunAction.cc.s
-.PHONY : src/RunAction.cc.s
-
-src/StackingAction.o: src/StackingAction.cc.o
-.PHONY : src/StackingAction.o
-
-# target to build an object file
-src/StackingAction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/StackingAction.cc.o
-.PHONY : src/StackingAction.cc.o
-
-src/StackingAction.i: src/StackingAction.cc.i
-.PHONY : src/StackingAction.i
-
-# target to preprocess a source file
-src/StackingAction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/StackingAction.cc.i
-.PHONY : src/StackingAction.cc.i
-
-src/StackingAction.s: src/StackingAction.cc.s
-.PHONY : src/StackingAction.s
-
-# target to generate assembly for a file
-src/StackingAction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/StackingAction.cc.s
-.PHONY : src/StackingAction.cc.s
-
-src/StepMax.o: src/StepMax.cc.o
-.PHONY : src/StepMax.o
-
-# target to build an object file
-src/StepMax.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/StepMax.cc.o
-.PHONY : src/StepMax.cc.o
-
-src/StepMax.i: src/StepMax.cc.i
-.PHONY : src/StepMax.i
-
-# target to preprocess a source file
-src/StepMax.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/StepMax.cc.i
-.PHONY : src/StepMax.cc.i
-
-src/StepMax.s: src/StepMax.cc.s
-.PHONY : src/StepMax.s
-
-# target to generate assembly for a file
-src/StepMax.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/StepMax.cc.s
-.PHONY : src/StepMax.cc.s
-
-src/SteppingAction.o: src/SteppingAction.cc.o
-.PHONY : src/SteppingAction.o
-
-# target to build an object file
-src/SteppingAction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/SteppingAction.cc.o
-.PHONY : src/SteppingAction.cc.o
-
-src/SteppingAction.i: src/SteppingAction.cc.i
-.PHONY : src/SteppingAction.i
-
-# target to preprocess a source file
-src/SteppingAction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/SteppingAction.cc.i
-.PHONY : src/SteppingAction.cc.i
-
-src/SteppingAction.s: src/SteppingAction.cc.s
-.PHONY : src/SteppingAction.s
-
-# target to generate assembly for a file
-src/SteppingAction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/SteppingAction.cc.s
-.PHONY : src/SteppingAction.cc.s
-
-src/TrackingAction.o: src/TrackingAction.cc.o
-.PHONY : src/TrackingAction.o
-
-# target to build an object file
-src/TrackingAction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/TrackingAction.cc.o
-.PHONY : src/TrackingAction.cc.o
-
-src/TrackingAction.i: src/TrackingAction.cc.i
-.PHONY : src/TrackingAction.i
-
-# target to preprocess a source file
-src/TrackingAction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/TrackingAction.cc.i
-.PHONY : src/TrackingAction.cc.i
-
-src/TrackingAction.s: src/TrackingAction.cc.s
-.PHONY : src/TrackingAction.s
-
-# target to generate assembly for a file
-src/TrackingAction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestEm1.dir/build.make CMakeFiles/TestEm1.dir/src/TrackingAction.cc.s
-.PHONY : src/TrackingAction.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -532,12 +340,6 @@ help:
 	@echo "... src/DetectorConstruction.o"
 	@echo "... src/DetectorConstruction.i"
 	@echo "... src/DetectorConstruction.s"
-	@echo "... src/EventAction.o"
-	@echo "... src/EventAction.i"
-	@echo "... src/EventAction.s"
-	@echo "... src/HistoManager.o"
-	@echo "... src/HistoManager.i"
-	@echo "... src/HistoManager.s"
 	@echo "... src/PhysListEmStandard.o"
 	@echo "... src/PhysListEmStandard.i"
 	@echo "... src/PhysListEmStandard.s"
@@ -547,24 +349,6 @@ help:
 	@echo "... src/PrimaryGeneratorAction.o"
 	@echo "... src/PrimaryGeneratorAction.i"
 	@echo "... src/PrimaryGeneratorAction.s"
-	@echo "... src/Run.o"
-	@echo "... src/Run.i"
-	@echo "... src/Run.s"
-	@echo "... src/RunAction.o"
-	@echo "... src/RunAction.i"
-	@echo "... src/RunAction.s"
-	@echo "... src/StackingAction.o"
-	@echo "... src/StackingAction.i"
-	@echo "... src/StackingAction.s"
-	@echo "... src/StepMax.o"
-	@echo "... src/StepMax.i"
-	@echo "... src/StepMax.s"
-	@echo "... src/SteppingAction.o"
-	@echo "... src/SteppingAction.i"
-	@echo "... src/SteppingAction.s"
-	@echo "... src/TrackingAction.o"
-	@echo "... src/TrackingAction.i"
-	@echo "... src/TrackingAction.s"
 .PHONY : help
 
 

@@ -39,7 +39,6 @@
 #include "G4NuclideTable.hh"
 
 #include "G4ProcessManager.hh"
-#include "StepMax.hh"
 #include "G4Material.hh"
 
 #include "G4Gamma.hh"
