@@ -44,13 +44,12 @@ int main(int argc,char** argv) {
    visManager = new G4VisExecutive;
    visManager->Initialize();
    UImanager->ApplyCommand("/control/execute vis.mac");
-   //UImanager->ApplyCommand("/control/execute beam.mac");
+   UImanager->ApplyCommand("/control/execute beam.mac");
    ui->SessionStart();
    delete ui;
   }
   else  {
    //batch mode
-   //UImanager->ApplyCommand("/control/execute beam.mac");
    G4String command = "/control/execute ";
    G4String fileName = argv[1];
    UImanager->ApplyCommand(command+fileName);

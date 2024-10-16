@@ -31,17 +31,15 @@ class PrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction
 {
   public:
     PrimaryGeneratorAction();    
-   ~PrimaryGeneratorAction() override;
+   ~PrimaryGeneratorAction();
 
-  public:  
     void GeneratePrimaries(G4Event*) override;
-    
-    G4ParticleGun* GetParticleGun() {return fParticleGun;}
 
   private:
-    G4ParticleGun*             fParticleGun;
     DetectorConstruction*      fDetector;
     G4double                   fRndmBeam = 0.;
+
+    G4GeneralParticleSource* particleGun;
 
 };
 #endif
