@@ -50,21 +50,14 @@
 PhysicsList::PhysicsList(DetectorConstruction* det) 
   : fDet(det)
 {
-  //fMessenger = new PhysicsListMessenger(this);
   SetVerboseLevel(1);
 
   // EM physics
   AddPhysicsList("emstandard_opt3");    
-  
-  // fix lower limit for cut
-  G4ProductionCutsTable::GetProductionCutsTable()->SetEnergyRange(10*eV, 1*GeV);
-  SetDefaultCutValue(1*mm);
 }
 
 PhysicsList::~PhysicsList()
-{
-  //delete fMessenger;
-}
+{}
 
 void PhysicsList::ConstructParticle()
 {
@@ -90,28 +83,11 @@ void PhysicsList::ConstructParticle()
 void PhysicsList::ConstructProcess()
 {
   AddTransportation();
-
   fEmPhysicsList->ConstructProcess();
-  
-  AddDecay();
-  AddRadioactiveDecay();  
-
-  // step limitation (as a full process)
-  AddStepMax();
-  
-  // example of Get process
-  auto process = GetProcess("RadioactiveDecay");
-  if (process != nullptr) {
-    G4cout << "\n  GetProcess : " << process->GetProcessName() << G4endl;
-  }
 }
 
 void PhysicsList::AddPhysicsList(const G4String& name)
 {
-  if (verboseLevel>0) {
-    G4cout << "PhysicsList::AddPhysicsList: <" << name << ">" << G4endl;
-  }
-  
   if (name == fEmName) return;
 
   if (name == "local") {
@@ -175,94 +151,9 @@ void PhysicsList::AddPhysicsList(const G4String& name)
     fEmPhysicsList = new G4EmLowEPPhysics();
             
   } else {
-
-    G4cout << "PhysicsList::AddPhysicsList: <" << name << ">"
-           << " is not defined"
-           << G4endl;
   }
   
   // Em options
   G4EmParameters::Instance()->SetBuildCSDARange(true);        
   G4EmParameters::Instance()->SetGeneralProcessActive(false);
-}
-
-void PhysicsList::AddDecay()
-{
-  G4PhysicsListHelper* ph = G4PhysicsListHelper::GetPhysicsListHelper();
-    
-  // Decay Process
-  G4Decay* fDecayProcess = new G4Decay();
-
-  auto particleIterator=GetParticleIterator();
-  particleIterator->reset();
-  while( (*particleIterator)() ){
-    G4ParticleDefinition* particle = particleIterator->value();
-    if (fDecayProcess->IsApplicable(*particle) && !particle->IsShortLived()) 
-      ph->RegisterProcess(fDecayProcess, particle);    
-  }
-}
-
-void PhysicsList::AddRadioactiveDecay()
-{  
-  G4RadioactiveDecay* radioactiveDecay = new G4RadioactiveDecay();
-  
-  G4bool armFlag = false;
-  radioactiveDecay->SetARM(armFlag);                //Atomic Rearangement
-
-  // atomic de-excitation module
-  if (armFlag) {
-    G4EmParameters::Instance()->SetAuger(true);
-    G4EmParameters::Instance()->SetDeexcitationIgnoreCut(true);
-  }
-  
-  G4PhysicsListHelper* ph = G4PhysicsListHelper::GetPhysicsListHelper();  
-  ph->RegisterProcess(radioactiveDecay, G4GenericIon::GenericIon());
-  
-  // mandatory for G4NuclideTable
-  const G4double meanLife = 1*picosecond, halfLife = meanLife*std::log(2);
-  G4NuclideTable::GetInstance()->SetThresholdOfHalfLife(halfLife);
-}
-
-void PhysicsList::AddStepMax()
-{
-  // Step limitation seen as a process
-  StepMax* stepMaxProcess = new StepMax();
-
-  auto particleIterator=GetParticleIterator();
-  particleIterator->reset();
-  while ((*particleIterator)()){
-    G4ParticleDefinition* particle = particleIterator->value();
-    G4ProcessManager* pmanager = particle->GetProcessManager();
-
-    if (stepMaxProcess->IsApplicable(*particle) && !particle->IsShortLived())
-      pmanager->AddDiscreteProcess(stepMaxProcess);
-  }
-}
-
-void PhysicsList::GetRange(G4double val)
-{
-  G4LogicalVolume* lBox = fDet->GetWorld()->GetLogicalVolume();
-  const G4MaterialCutsCouple* couple = lBox->GetMaterialCutsCouple();
-  const G4Material* currMat = lBox->GetMaterial();
-
-  G4ParticleDefinition* part;
-  G4double cut;
-  part = G4Electron::Electron();
-  cut = G4LossTableManager::Instance()->GetRange(part,val,couple);
-  G4cout << "material : " << currMat->GetName()       << G4endl;
-  G4cout << "particle : " << part->GetParticleName()  << G4endl;
-  G4cout << "energy   : " << G4BestUnit(val,"Energy") << G4endl;
-  G4cout << "range    : " << G4BestUnit(cut,"Length") << G4endl;
-}
-
-G4VProcess* PhysicsList::GetProcess(const G4String& processName) const
-{
-  G4ParticleDefinition* particle = G4GenericIon::GenericIon();
-  G4ProcessVector* procList = particle->GetProcessManager()->GetProcessList();
-  G4int nbProc = particle->GetProcessManager()->GetProcessListLength();
-  for (G4int k=0; k<nbProc; k++) {
-    G4VProcess* process = (*procList)[k];
-    if (process->GetProcessName() == processName) return process;
-  }
-  return nullptr;
 }
