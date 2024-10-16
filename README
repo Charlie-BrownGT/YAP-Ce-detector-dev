@@ -1,0 +1,6 @@
+Things to do: 
+
+Automate the name generation process by using variables in the detector construction, then reading them together into the file name within run.cc.
+Investigate which detector construction variables can be changed with a user defined message (suspect beam, construction may be more difficult) - tested and works, this is all done within the construction files and via macros, check this to invesigate for ID and DD changes.
+
+Diamond detector set to be at least 40cm from ion source, likely between 50 and 80cm. Angular acceptance of the ion chamber is 3 degrees. 
