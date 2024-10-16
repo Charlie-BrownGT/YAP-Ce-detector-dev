@@ -1,23 +1,6 @@
 #include "PrimaryGeneratorAction.hh"
 
-#include "DetectorConstruction.hh"
-
-#include "G4Event.hh"
-#include "G4ParticleTable.hh"
-#include "G4IonTable.hh"
-#include "G4ParticleDefinition.hh"
-#include "G4SystemOfUnits.hh"
-#include "Randomize.hh"
-
-#include "G4BosonConstructor.hh"
-#include "G4LeptonConstructor.hh"
-#include "G4MesonConstructor.hh"
-#include "G4BosonConstructor.hh"
-#include "G4BaryonConstructor.hh"
-#include "G4IonConstructor.hh"
-
-PrimaryGeneratorAction::PrimaryGeneratorAction( DetectorConstruction* det)
- :fDetector(det)
+PrimaryGeneratorAction::PrimaryGeneratorAction()
 {  
   fParticleGun  = new G4ParticleGun(1);
 

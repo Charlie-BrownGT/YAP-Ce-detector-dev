@@ -2,16 +2,17 @@
 #include "DetectorConstruction.hh"
 #include "PrimaryGeneratorAction.hh"
 
-ActionInitialization::ActionInitialization(DetectorConstruction* det)
- : fDetector(det)
-{ }
+ActionInitialization::ActionInitialization()
+{}
+
+ActionInitialization::~ActionInitialization()
+{}
 
 void ActionInitialization::BuildForMaster() const
 {}
 
 void ActionInitialization::Build() const
 {
-  
-  PrimaryGeneratorAction* prim = new PrimaryGeneratorAction(fDetector);
+  PrimaryGeneratorAction* prim = new PrimaryGeneratorAction();
   SetUserAction(prim);
 }  

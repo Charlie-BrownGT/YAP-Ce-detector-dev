@@ -34,7 +34,7 @@ int main(int argc,char** argv) {
 
   PhysicsList* phys = new PhysicsList(det);
   runManager->SetUserInitialization(phys);
-  runManager->SetUserInitialization(new ActionInitialization(det));
+  runManager->SetUserInitialization(new ActionInitialization());
   G4VisManager* visManager = nullptr;
 
   G4UImanager* UImanager = G4UImanager::GetUIpointer();

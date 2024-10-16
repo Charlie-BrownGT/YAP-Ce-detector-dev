@@ -8,15 +8,14 @@ class DetectorConstruction;
 class ActionInitialization : public G4VUserActionInitialization
 {
   public:
-    ActionInitialization(DetectorConstruction*);
-   ~ActionInitialization() override = default;
+    ActionInitialization();
+   ~ActionInitialization();
 
     void BuildForMaster() const override;
     void Build() const override;
     
   private:
     DetectorConstruction* fDetector = nullptr;
-
 };
 
 #endif
