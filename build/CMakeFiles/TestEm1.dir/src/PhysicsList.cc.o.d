@@ -1,7 +1,7 @@
 CMakeFiles/TestEm1.dir/src/PhysicsList.cc.o: \
- /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/src/PhysicsList.cc \
+ /home/guy/software/geant4/projects/YAP-Ce-detector-dev/src/PhysicsList.cc \
  /usr/include/stdc-predef.h \
- /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/include/PhysicsList.hh \
+ /home/guy/software/geant4/projects/YAP-Ce-detector-dev/include/PhysicsList.hh \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4VModularPhysicsList.hh \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4VPhysicsConstructor.hh \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4ParticleTable.hh \
@@ -335,7 +335,10 @@ CMakeFiles/TestEm1.dir/src/PhysicsList.cc.o: \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/geomwdefs.hh \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4Region.icc \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/globals.hh \
- /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/include/PhysListEmStandard.hh \
+ /home/guy/software/geant4/projects/YAP-Ce-detector-dev/include/DetectorConstruction.hh \
+ /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4VUserDetectorConstruction.hh \
+ /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4Cache.hh \
+ /home/guy/software/geant4/projects/YAP-Ce-detector-dev/include/PhysListEmStandard.hh \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4VPhysicsConstructor.hh \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4EmStandardPhysics.hh \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4EmStandardPhysics_option1.hh \
@@ -349,9 +352,6 @@ CMakeFiles/TestEm1.dir/src/PhysicsList.cc.o: \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4EmLivermorePhysics.hh \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4EmPenelopePhysics.hh \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4EmLowEPPhysics.hh \
- /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/include/DetectorConstruction.hh \
- /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4VUserDetectorConstruction.hh \
- /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4Cache.hh \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4LossTableManager.hh \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4VEnergyLossProcess.hh \
  /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/include/Geant4/G4VContinuousDiscreteProcess.hh \

@@ -1,8 +1,7 @@
 #include "PhysicsList.hh"
-//#include "PhysicsListMessenger.hh"
- 
-#include "PhysListEmStandard.hh"
+#include "DetectorConstruction.hh"
 
+#include "PhysListEmStandard.hh"
 #include "G4EmStandardPhysics.hh"
 #include "G4EmStandardPhysics_option1.hh"
 #include "G4EmStandardPhysics_option2.hh"
@@ -14,8 +13,6 @@
 #include "G4EmLivermorePhysics.hh"
 #include "G4EmPenelopePhysics.hh"
 #include "G4EmLowEPPhysics.hh"
-
-#include "DetectorConstruction.hh"
 
 #include "G4LossTableManager.hh"
 #include "G4UnitsTable.hh"
@@ -52,7 +49,7 @@ PhysicsList::PhysicsList(DetectorConstruction* det)
   SetVerboseLevel(1);
 
   // EM physics
-  AddPhysicsList("emstandard_opt3");    
+  AddPhysicsList("emlowenergy");    
 }
 
 PhysicsList::~PhysicsList()

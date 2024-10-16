@@ -24,7 +24,6 @@ DetectorConstruction::DetectorConstruction()
   fBoxSize = 1.*m;
   worldSize = 2*m;
   DefineMaterials();
-  SetMaterial("YAPCe");  
 }
 
 DetectorConstruction::~DetectorConstruction()
@@ -32,7 +31,7 @@ DetectorConstruction::~DetectorConstruction()
 
 void DetectorConstruction::DefineMaterials()
 {
-  
+
   G4double z,a;
 
   G4double density = 1.e-25*g/cm3, pressure = 1.e-5*pascal, temperature = 2.73 * kelvin;
@@ -52,36 +51,15 @@ void DetectorConstruction::DefineMaterials()
 
 G4VPhysicalVolume* DetectorConstruction::Construct()
 {
-  if(fPBox) { return fPBox; }
-
-  fBox = new G4Box("Container", fBoxSize/2,fBoxSize/2,fBoxSize/2);
-  fLBox = new G4LogicalVolume(fBox, YAPCe, "LYAPCe");
-  fPBox = new G4PVPlacement(0, G4ThreeVector(), fLBox, "PYAPCe", 0, false, 0);
-
-  return fPBox;
-}
-
-
-void DetectorConstruction::SetMaterial(const G4String& materialChoice)
-{
-  //search the material by its name
-  G4Material* pttoMaterial = 
-     G4NistManager::Instance()->FindOrBuildMaterial(materialChoice);
+  solidWorld = new G4Box("solidWorld", worldSize, worldSize, worldSize);
+  logicWorld = new G4LogicalVolume(solidWorld, vacuum, "logicWorld");
+  physWorld = new G4PVPlacement(0, G4ThreeVector(), logicWorld, "physWorld", 0, false, 0, true);
   
-  if (pttoMaterial) {
-    fMaterial = pttoMaterial;
-  }
-}
+  fBox = new G4Box("Container", fBoxSize/2,fBoxSize/2,fBoxSize/2);
+  fLBox = new G4LogicalVolume(fBox, YAPCe, "fLBox");
+  fPBox = new G4PVPlacement(0, G4ThreeVector(), fLBox, "fPBox", logicWorld, 0, false, 0);
 
-
-void DetectorConstruction::SetSize(G4double value)
-{
-  fBoxSize = value;
-  if(fBox) {
-    fBox->SetXHalfLength(fBoxSize/2);
-    fBox->SetYHalfLength(fBoxSize/2);
-    fBox->SetZHalfLength(fBoxSize/2);
-  }
+  return physWorld;
 }
 
 void DetectorConstruction::ConstructSDandField()
