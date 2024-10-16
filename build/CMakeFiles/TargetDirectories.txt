@@ -1,0 +1,7 @@
+/home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build/CMakeFiles/TestEm1.dir
+/home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build/CMakeFiles/edit_cache.dir
+/home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build/CMakeFiles/rebuild_cache.dir
+/home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build/CMakeFiles/list_install_components.dir
+/home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build/CMakeFiles/install.dir
+/home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build/CMakeFiles/install/local.dir
+/home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build/CMakeFiles/install/strip.dir
