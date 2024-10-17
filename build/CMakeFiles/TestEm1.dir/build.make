@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/guy/software/geant4/projects/YAP-Ce-detector-dev
+CMAKE_SOURCE_DIR = /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/guy/software/geant4/projects/YAP-Ce-detector-dev/build
+CMAKE_BINARY_DIR = /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TestEm1.dir/depend.make
@@ -72,86 +72,86 @@ include CMakeFiles/TestEm1.dir/flags.make
 CMakeFiles/TestEm1.dir/TestEm1.cc.o: CMakeFiles/TestEm1.dir/flags.make
 CMakeFiles/TestEm1.dir/TestEm1.cc.o: ../TestEm1.cc
 CMakeFiles/TestEm1.dir/TestEm1.cc.o: CMakeFiles/TestEm1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/software/geant4/projects/YAP-Ce-detector-dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestEm1.dir/TestEm1.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestEm1.dir/TestEm1.cc.o -MF CMakeFiles/TestEm1.dir/TestEm1.cc.o.d -o CMakeFiles/TestEm1.dir/TestEm1.cc.o -c /home/guy/software/geant4/projects/YAP-Ce-detector-dev/TestEm1.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestEm1.dir/TestEm1.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestEm1.dir/TestEm1.cc.o -MF CMakeFiles/TestEm1.dir/TestEm1.cc.o.d -o CMakeFiles/TestEm1.dir/TestEm1.cc.o -c /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/TestEm1.cc
 
 CMakeFiles/TestEm1.dir/TestEm1.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestEm1.dir/TestEm1.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guy/software/geant4/projects/YAP-Ce-detector-dev/TestEm1.cc > CMakeFiles/TestEm1.dir/TestEm1.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/TestEm1.cc > CMakeFiles/TestEm1.dir/TestEm1.cc.i
 
 CMakeFiles/TestEm1.dir/TestEm1.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestEm1.dir/TestEm1.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guy/software/geant4/projects/YAP-Ce-detector-dev/TestEm1.cc -o CMakeFiles/TestEm1.dir/TestEm1.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/TestEm1.cc -o CMakeFiles/TestEm1.dir/TestEm1.cc.s
 
 CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.o: CMakeFiles/TestEm1.dir/flags.make
 CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.o: ../src/ActionInitialization.cc
 CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.o: CMakeFiles/TestEm1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/software/geant4/projects/YAP-Ce-detector-dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.o -MF CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.o -c /home/guy/software/geant4/projects/YAP-Ce-detector-dev/src/ActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.o -MF CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.o -c /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/src/ActionInitialization.cc
 
 CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guy/software/geant4/projects/YAP-Ce-detector-dev/src/ActionInitialization.cc > CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/src/ActionInitialization.cc > CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.i
 
 CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guy/software/geant4/projects/YAP-Ce-detector-dev/src/ActionInitialization.cc -o CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/src/ActionInitialization.cc -o CMakeFiles/TestEm1.dir/src/ActionInitialization.cc.s
 
 CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.o: CMakeFiles/TestEm1.dir/flags.make
 CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.o: ../src/DetectorConstruction.cc
 CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.o: CMakeFiles/TestEm1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/software/geant4/projects/YAP-Ce-detector-dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.o -c /home/guy/software/geant4/projects/YAP-Ce-detector-dev/src/DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.o -c /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/src/DetectorConstruction.cc
 
 CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guy/software/geant4/projects/YAP-Ce-detector-dev/src/DetectorConstruction.cc > CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/src/DetectorConstruction.cc > CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.i
 
 CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guy/software/geant4/projects/YAP-Ce-detector-dev/src/DetectorConstruction.cc -o CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/src/DetectorConstruction.cc -o CMakeFiles/TestEm1.dir/src/DetectorConstruction.cc.s
 
 CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.o: CMakeFiles/TestEm1.dir/flags.make
 CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.o: ../src/PhysListEmStandard.cc
 CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.o: CMakeFiles/TestEm1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/software/geant4/projects/YAP-Ce-detector-dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.o -MF CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.o.d -o CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.o -c /home/guy/software/geant4/projects/YAP-Ce-detector-dev/src/PhysListEmStandard.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.o -MF CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.o.d -o CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.o -c /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/src/PhysListEmStandard.cc
 
 CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guy/software/geant4/projects/YAP-Ce-detector-dev/src/PhysListEmStandard.cc > CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/src/PhysListEmStandard.cc > CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.i
 
 CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guy/software/geant4/projects/YAP-Ce-detector-dev/src/PhysListEmStandard.cc -o CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/src/PhysListEmStandard.cc -o CMakeFiles/TestEm1.dir/src/PhysListEmStandard.cc.s
 
 CMakeFiles/TestEm1.dir/src/PhysicsList.cc.o: CMakeFiles/TestEm1.dir/flags.make
 CMakeFiles/TestEm1.dir/src/PhysicsList.cc.o: ../src/PhysicsList.cc
 CMakeFiles/TestEm1.dir/src/PhysicsList.cc.o: CMakeFiles/TestEm1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/software/geant4/projects/YAP-Ce-detector-dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TestEm1.dir/src/PhysicsList.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestEm1.dir/src/PhysicsList.cc.o -MF CMakeFiles/TestEm1.dir/src/PhysicsList.cc.o.d -o CMakeFiles/TestEm1.dir/src/PhysicsList.cc.o -c /home/guy/software/geant4/projects/YAP-Ce-detector-dev/src/PhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TestEm1.dir/src/PhysicsList.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestEm1.dir/src/PhysicsList.cc.o -MF CMakeFiles/TestEm1.dir/src/PhysicsList.cc.o.d -o CMakeFiles/TestEm1.dir/src/PhysicsList.cc.o -c /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/src/PhysicsList.cc
 
 CMakeFiles/TestEm1.dir/src/PhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestEm1.dir/src/PhysicsList.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guy/software/geant4/projects/YAP-Ce-detector-dev/src/PhysicsList.cc > CMakeFiles/TestEm1.dir/src/PhysicsList.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/src/PhysicsList.cc > CMakeFiles/TestEm1.dir/src/PhysicsList.cc.i
 
 CMakeFiles/TestEm1.dir/src/PhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestEm1.dir/src/PhysicsList.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guy/software/geant4/projects/YAP-Ce-detector-dev/src/PhysicsList.cc -o CMakeFiles/TestEm1.dir/src/PhysicsList.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/src/PhysicsList.cc -o CMakeFiles/TestEm1.dir/src/PhysicsList.cc.s
 
 CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/TestEm1.dir/flags.make
 CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.o: ../src/PrimaryGeneratorAction.cc
 CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/TestEm1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/software/geant4/projects/YAP-Ce-detector-dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.o -c /home/guy/software/geant4/projects/YAP-Ce-detector-dev/src/PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.o -c /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guy/software/geant4/projects/YAP-Ce-detector-dev/src/PrimaryGeneratorAction.cc > CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/src/PrimaryGeneratorAction.cc > CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guy/software/geant4/projects/YAP-Ce-detector-dev/src/PrimaryGeneratorAction.cc -o CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/src/PrimaryGeneratorAction.cc -o CMakeFiles/TestEm1.dir/src/PrimaryGeneratorAction.cc.s
 
 # Object files for target TestEm1
 TestEm1_OBJECTS = \
@@ -214,7 +214,7 @@ TestEm1: /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/lib/libG4globa
 TestEm1: /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/lib/libG4clhep.so
 TestEm1: /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/lib/libG4ptl.so.2.3.3
 TestEm1: CMakeFiles/TestEm1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guy/software/geant4/projects/YAP-Ce-detector-dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable TestEm1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable TestEm1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TestEm1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -226,6 +226,6 @@ CMakeFiles/TestEm1.dir/clean:
 .PHONY : CMakeFiles/TestEm1.dir/clean
 
 CMakeFiles/TestEm1.dir/depend:
-	cd /home/guy/software/geant4/projects/YAP-Ce-detector-dev/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/guy/software/geant4/projects/YAP-Ce-detector-dev /home/guy/software/geant4/projects/YAP-Ce-detector-dev /home/guy/software/geant4/projects/YAP-Ce-detector-dev/build /home/guy/software/geant4/projects/YAP-Ce-detector-dev/build /home/guy/software/geant4/projects/YAP-Ce-detector-dev/build/CMakeFiles/TestEm1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build /home/guy/software/geant4/geant4-v11.2.2-gdml-mt-install/projects/YAP-Ce-detector-dev/build/CMakeFiles/TestEm1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TestEm1.dir/depend
 
