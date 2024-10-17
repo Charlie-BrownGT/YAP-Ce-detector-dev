@@ -21,8 +21,8 @@
 
 DetectorConstruction::DetectorConstruction()
 {
-  fBoxSize = 1.*m;
-  worldSize = 2*m;
+  fBoxSize = 0.1*m;
+  worldSize = 1*m;
   DefineMaterials();
 }
 
@@ -51,11 +51,11 @@ void DetectorConstruction::DefineMaterials()
 
 G4VPhysicalVolume* DetectorConstruction::Construct()
 {
-  solidWorld = new G4Box("solidWorld", worldSize, worldSize, worldSize);
+  solidWorld = new G4Box("solidWorld", worldSize/2, worldSize/2, worldSize/2);
   logicWorld = new G4LogicalVolume(solidWorld, vacuum, "logicWorld");
   physWorld = new G4PVPlacement(0, G4ThreeVector(), logicWorld, "physWorld", 0, false, 0, true);
   
-  fBox = new G4Box("Container", fBoxSize/2,fBoxSize/2,fBoxSize/2);
+  fBox = new G4Box("Container", 10*mm, 10*mm, 0.5*mm);
   fLBox = new G4LogicalVolume(fBox, YAPCe, "fLBox");
   fPBox = new G4PVPlacement(0, G4ThreeVector(), fLBox, "fPBox", logicWorld, 0, false, 0);
 
